@@ -8,4 +8,16 @@ if device_status == "active":
         print("Temperature is normal")
 else:
     print("Device is offline")
-#Loan Eligibility Chacker
+
+
+#Loan Eligibility Checker
+age = 21
+income = 25000
+def check_loan_eligibility(age: int, income: float) -> str:
+    if age >=21:
+        if income >= 25000:
+            return "Eligible for loan"
+        else:
+            return  "Not eligible: Income too low"
+    else:
+        return "Not eligible: Age must be 21 or above"
