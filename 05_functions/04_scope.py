@@ -1,7 +1,7 @@
 # Scope and Named Space in Functions
 
 #local - inside a function
-# Enclosing from outer function if nested
+# Enclosing - from outer function if nested
 # global - top level script
 # Built in
 

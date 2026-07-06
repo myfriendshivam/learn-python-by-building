@@ -35,6 +35,7 @@ def special_chai(*ingredients, **extras):   # (*args , **kwargs)
 
 special_chai("Cinnamon", "Cardmom", sweetener="Honey", foam="yes")
 
+# *args lets you pass a variable number of positional arguments to a function
 
 #def chai_order(order= []):
 #    order.append("Masala")
