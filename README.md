@@ -13,3 +13,19 @@ flatten nested
 
 - Types of Comprehensions
 List , Set , Dictionary,  Generator
+
+# 10 - Virtual Environment with env
+
+Testvenv folder
+-version
+ls
+-m venv .venv
+venv\Scripts\activate
+deactivate
+pip install --upgrade pip
+pip install requests
+pip install flask
+
+generate the file which mentioned all dependency there -> 
+pip freeze
+write the name -> requirement.txt
